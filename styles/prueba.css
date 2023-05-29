@@ -1,5 +1,5 @@
 /* SELECTORS */
-
+/* 
 body {
 	background-color: #000;
 	font-family: 'Inter', Arial, Helvetica, sans-serif;
@@ -81,11 +81,11 @@ ol p {
 	max-width: 400px;
 	margin-top: 15px;
 	color: rgb(146, 146, 146);
-} 
+}  */
 
 /* PSEUDO CLASSES */
 
-.header-nav a:nth-child(even) {
+/* .header-nav a:nth-child(even) {
 	padding: 0 30px;
 }
 
@@ -140,11 +140,11 @@ ol li:nth-child(-n+3) {
 
 address > a:hover {
 	color: #ffbf00;
-}
+} */
 
 /* PSEUDO ELEMENTS */
 
-.team-up-input::placeholder {
+/* .team-up-input::placeholder {
 	color: #ffbf00;
 	text-align: center;
 }
@@ -157,13 +157,13 @@ address > a:hover {
 textarea::placeholder {
 	color: #fff;
 	text-align: center;
-}
+} */
 
 /* CLASSES */
 
 /* GLOBAL CLASSES */
 
-.visually-hidden {
+/* .visually-hidden {
 	clip: rect(0 0 0 0);
 	clip-path: inset(50%);
 	height: 1px;
@@ -309,11 +309,11 @@ textarea::placeholder {
 	width: 30px;
 	background-image: url(../images/vector/linkedin-logo.png);
 	background-size: cover;
-}
+} */
 
 /* MAIN PAGE CLASSES */
 
-.h1-mainpage {
+/* .h1-mainpage {
 	position: absolute;
 	right: 40px;
 	top: 15px;
@@ -363,11 +363,11 @@ textarea::placeholder {
 
 .info-box-padding > div {
 	max-height: 200px;
-}
+} */
 
 /* RESUME STYLES */
 
-.h1-resume {
+/* .h1-resume {
 	position: absolute;
 	right: 245px;
 	top: 15px;
@@ -452,11 +452,11 @@ textarea::placeholder {
 	width: 140px;
 	border-radius: 3px 0 0 3px;
 	background-color: #0bafb5;
-}
+} */
 
 /* PORTFOLIO STYLES */
 
-.h1-portfolio {
+/* .h1-portfolio {
 	position: absolute;
 	right: 125px;
 	top: 15px;
@@ -524,12 +524,12 @@ textarea::placeholder {
 .project-img6 {
 	background-image: url(../images/images/array-preview.png);
 	background-size: cover;
-}
+} */
 
 
 /* CONTACT STYLES */
 
-.h1-contact {
+/* .h1-contact {
 	position: absolute;
 	right: 192px;
 	top: 15px;
@@ -583,4 +583,4 @@ textarea::placeholder {
 	padding: 10px 10px;
 	border: none;
 	border-radius: 5px;
-}
+} */

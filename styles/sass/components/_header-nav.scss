@@ -1,0 +1,75 @@
+@use "./colors";
+
+.header__nav {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50vw;
+  height: 100vh;
+  background-color: colors.$white;
+  padding: 20px;
+	box-shadow: 0 0 3em rgb(0, 0, 0);
+	transform: translateX(100%);
+	// display: none;
+	transition: transform 300ms cubic-bezier(.5, 0, .5, 1);
+}
+
+.header__nav-item {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.header__nav-link {
+  font-weight: 800;
+}
+
+.header__btn {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: 1%;
+  right: 0;
+}
+
+.header__btn--black {
+  position: relative;
+  top: auto;
+  left: 0;
+  margin-bottom: 15px;
+}
+
+.material-icons.header__btn-icon {
+  color: colors.$white;
+  font-size: 36px;
+}
+
+.material-icons.header__btn-icon--black {
+  color: colors.$black;
+}
+
+.header__social {
+  display: flex;
+	position: absolute;
+	bottom: 3%;
+}
+
+.header__social-logo {
+  height: 30px;
+  width: 30px;
+  background-size: cover;
+  margin-right: 10px;
+  filter: brightness(0) saturate(100%);
+}
+
+.header__social-logo--github {
+  background-image: url(../images/vector/github-logo.png);
+}
+
+.header__social-logo--linkedin {
+  background-image: url(../images/vector/linkedin-logo.png);
+}
+
+.nav-open {
+  transform: translateX(0);
+	// display: block;
+}

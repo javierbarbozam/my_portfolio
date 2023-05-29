@@ -1,99 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;800&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="./styles/prueba.css">
-	<title>Main Page | Javier Barboza</title>
-</head>
-<body>
-	<header class="center-element">
-		<h1 class="h1-mainpage">JAVIER BARBOZA</h1>
-		<p class="slogan">A guy excited to become a web developer :)</p>
-			<nav class="header-nav">
-				<a class="header-anchor" href="./index.html">Home</a>
-				<a class="header-anchor" href="./resume/resume.html">Resume</a>
-				<a class="header-anchor" href="./portfolio/portfolio.html">Portfolio</a>
-				<a class="header-anchor" href="./contact/contact.html">Contact</a>
-			</nav>
-	</header>
-	<main>
-		<div class="info-box flex-element">
-			<section class="info-box-padding">
-				<h2 class="h2-color1">About me</h2>
-				<p class="mainpage-bio">
-					<span>
-						I believe tech, art and social awareness should
-						be together, evolving in order to have a better world. 
-					</span>
-					<span>
-						I want to use this tools to contribute taking humankind into experiences that
-						allow us question the way we live and interact with each other.
-					</span>
-					<span>
-						To conquer it, I try to be curious, autodidactic, meticulous and leave my confort
-						zone behind.
-					</span>
-					<span>
-						I like to see myself as a guy who doesn't stop exploring new ways to bring that enhanced world
-						closer through musical, spontaneous and creative experiences.
-					</span>
-					<span>
-						So yeah, this is me :)
-					</span>
-				</p>
-			</section>
-			<section class="info-box-bg">
-				<div class="info-box-padding">
-					<h2 class="h2-color2">My lastest projects</h2>
-					<div>
-						<a class="project-preview-anchor" href="./portfolio/portfolio.html">
-							Dalio Digital Agency
-							<span class="project-preview-span">
-								A brand new face on the internet
-							</span>
-							<div class="project-preview1"></div>
-						</a>
-					</div>
-					<div>
-						<a class="project-preview-anchor" href="./portfolio/portfolio.html">
-							Biccas Inc.
-							<span class="project-preview-span">
-								The productivity increaser
-							</span>
-							<div class="project-preview2"></div>
-						</a>
-					</div>
-				</div>
-			</section>
-		</div>
-	</main>
-	<footer>
-		<div>
-			<div class="footer-flex">
-				<form action="#" method="post">
-					<label class="team-up-label" for="email">Let's team up! :)</label>
-					<div class="team-up-box">
-						<input class="team-up-input" type="email" name="email" id="email" placeholder="youremail@mail.com">
-						<button class="team-up-btn" type="submit">
-							<span class="visually-hidden">Send e-mail</span>
-							<img src="./images/vector/check.png" alt="">
-						</button>
-					</div>
-				</form>
-				<address>
-					<p>San José, Costa Rica</p>
-					<a href="mailto:barboza.javier497@gmail.com">Contact me :)</a>
-				</address>
-				<ul class="socialmedia">
-					<li><a class="github-logo" href="https://github.com/javierbarbozam" target="_blank"><span class="visually-hidden">Go to my GitHub profile</span></a></li>
-					<li><a class="linkedin-logo" href="https://www.linkedin.com/in/javier-barboza-mu%C3%B1oz-75ba44120/" target="_blank"><span class="visually-hidden">Go to my LinkedIn profile</span></a></li>
-				</ul>
-				<p class="copyright">2022 | All Rights Reserved</p>
-			</div>
-		</div>
-	</footer>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/prueba.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <title>Main Page | Javier Barboza</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-wrapper">
+        <h1 class="header__title">JAVIER BARBOZA</h1>
+        <p class="header__slogan">Excited to become a Front End developer :)</p>
+        <button id="open_nav_btn" class="header__btn">
+          <i class="material-icons header__btn-icon">menu</i>
+        </button>
+      </div>
+      <nav id="header_nav" class="header__nav">
+        <button id="close_nav_btn" class="header__btn header__btn--black">
+          <i class="material-icons header__btn-icon--black">close</i>
+        </button>
+        <ul class="header__nav-list">
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="./index.html">Home</a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="./resume/resume.html">Resume</a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="./portfolio/portfolio.html"
+              >Portfolio</a
+            >
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="./contact/contact.html"
+              >Contact</a
+            >
+          </li>
+        </ul>
+        <ul class="header__social">
+          <li>
+            <a
+              class="header__social-logo header__social-logo--github"
+              href="https://github.com/javierbarbozam"
+              target="_blank"
+              ><span class="visually-hidden">Go to my GitHub profile</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="header__social-logo header__social-logo--linkedin"
+              href="https://www.linkedin.com/in/javier-barboza-mu%C3%B1oz-75ba44120/"
+              target="_blank"
+              ><span class="visually-hidden">Go to my LinkedIn profile</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- <main>
+      <div class="info-box flex-element">
+        <section class="info-box-padding">
+          <h2 class="h2-color1">About me</h2>
+          <p class="mainpage-bio">
+            <span>
+              I believe tech, art and social awareness should be together,
+              evolving in order to have a better world.
+            </span>
+            <span>
+              I want to use this tools to contribute taking humankind into
+              experiences that allow us question the way we live and interact
+              with each other.
+            </span>
+            <span>
+              To conquer it, I try to be curious, autodidactic, meticulous and
+              leave my confort zone behind.
+            </span>
+            <span>
+              I like to see myself as a guy who doesn't stop exploring new ways
+              to bring that enhanced world closer through musical, spontaneous
+              and creative experiences.
+            </span>
+            <span> So yeah, this is me :) </span>
+          </p>
+        </section>
+        <section class="info-box-bg">
+          <div class="info-box-padding">
+            <h2 class="h2-color2">My lastest projects</h2>
+            <div>
+              <a
+                class="project-preview-anchor"
+                href="./portfolio/portfolio.html"
+              >
+                Dalio Digital Agency
+                <span class="project-preview-span">
+                  A brand new face on the internet
+                </span>
+                <div class="project-preview1"></div>
+              </a>
+            </div>
+            <div>
+              <a
+                class="project-preview-anchor"
+                href="./portfolio/portfolio.html"
+              >
+                Biccas Inc.
+                <span class="project-preview-span">
+                  The productivity increaser
+                </span>
+                <div class="project-preview2"></div>
+              </a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main> -->
+    <!-- <footer>
+      <div>
+        <div class="footer-flex">
+          <form action="#" method="post">
+            <label class="team-up-label" for="email">Let's team up! :)</label>
+            <div class="team-up-box">
+              <input
+                class="team-up-input"
+                type="email"
+                name="email"
+                id="email"
+                placeholder="youremail@mail.com"
+              />
+              <button class="team-up-btn" type="submit">
+                <span class="visually-hidden">Send e-mail</span>
+                <img src="./images/vector/check.png" alt="" />
+              </button>
+            </div>
+          </form>
+          <address>
+            <p>San José, Costa Rica</p>
+            <a href="mailto:barboza.javier497@gmail.com">Contact me :)</a>
+          </address>
+          <ul class="socialmedia">
+            <li>
+              <a
+                class="github-logo"
+                href="https://github.com/javierbarbozam"
+                target="_blank"
+                ><span class="visually-hidden">Go to my GitHub profile</span></a
+              >
+            </li>
+            <li>
+              <a
+                class="linkedin-logo"
+                href="https://www.linkedin.com/in/javier-barboza-mu%C3%B1oz-75ba44120/"
+                target="_blank"
+                ><span class="visually-hidden"
+                  >Go to my LinkedIn profile</span
+                ></a
+              >
+            </li>
+          </ul>
+          <p class="copyright">2022 | All Rights Reserved</p>
+        </div>
+      </div>
+    </footer> -->
+    <script type="module" defer src="./script/main.js"></script>
+  </body>
 </html>
