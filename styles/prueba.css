@@ -342,7 +342,7 @@ textarea::placeholder {
 .project-preview1 {
 	height: 150px;
 	width: 300px;
-	background-image: url(../images/images/dalio-preview.png);
+	background-image: url(../images/images/travelin-preview.png);
 	background-size: cover;
 	border: #ffbf00 solid 3px;
 	position: relative;
@@ -353,7 +353,7 @@ textarea::placeholder {
 .project-preview2 {
 	height: 150px;
 	width: 300px;
-	background-image: url(../images/images/biccas-preview.png);
+	background-image: url(../images/images/pokeapp-preview.png);
 	background-size: cover;
 	border: #0bafb5 solid 3px;
 	position: relative;
@@ -497,32 +497,27 @@ textarea::placeholder {
 }
 
 .project-img1 {
-	background-image: url(../images/images/dalio-preview.png);
+	background-image: url(../images/images/travelin-preview.png);
 	background-size: cover;
 }
 
 .project-img2 {
-	background-image: url(../images/images/biccas-preview.png);
+	background-image: url(../images/images/pokeapp-preview.png);
 	background-size: cover;
 }
 
 .project-img3 {
-	background-image: url(../images/images/horoscope-preview.jpeg);
+	background-image: url(../images/images/dufte-preview.png);
 	background-size: cover;
 }
 
 .project-img4 {
-	background-image: url(../images/images/javascript-preview.jpg);
+	background-image: url(../images/images/biccas-preview.png);
 	background-size: cover;
 }
 
 .project-img5 {
-	background-image: url(../images/images/medium-preview.png);
-	background-size: cover;
-}
-
-.project-img6 {
-	background-image: url(../images/images/array-preview.png);
+	background-image: url(../images/images/dalio-preview.png);
 	background-size: cover;
 }
 
