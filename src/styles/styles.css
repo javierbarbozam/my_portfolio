@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f0eb;
+  font-family: "Inter", sans-serif;
+  overflow: hidden;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.person {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.person__name {
+  font-family: "Shantell Sans", cursive;
+  color: #ff593c;
+  display: flex;
+  flex-direction: column;
+  font-size: 4rem;
+  position: relative;
+  letter-spacing: -4px;
+}
+
+.person__last-name {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  color: #000000;
+  position: relative;
+  top: -45px;
+  letter-spacing: initial;
+}
+
+.smile {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  margin-top: 50px;
+}
+
+.smile-home {
+  width: 130%;
+  position: relative;
+  left: -18%;
+}
+
+/*# sourceMappingURL=styles.css.map */
