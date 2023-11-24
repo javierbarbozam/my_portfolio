@@ -92,14 +92,14 @@ a {
   transform: rotate(-35deg);
 }
 
-.nav {
+.nav-home {
   margin-top: 60px;
   display: flex;
   justify-content: center;
   gap: 40px;
 }
 
-.nav__item {
+.nav-home__item {
   color: #000000;
 }
 
