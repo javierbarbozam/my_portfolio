@@ -8,8 +8,7 @@
 
 body {
   background-color: colors.$white;
-  font-family: 'Inter', sans-serif;
-  overflow: hidden;
+  font-family: "Inter", sans-serif;
 }
 
 ul {
@@ -21,12 +20,12 @@ a {
   display: block;
 }
 
-.visually-hidden {
-	clip: rect(0 0 0 0);
-	clip-path: inset(50%);
-	height: 1px;
-	overflow: hidden;
-	position: absolute;
-	white-space: nowrap;
-	width: 1px;
+.home-wrapper {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.about-container {
+  padding-top: 30px;
 }

@@ -1,0 +1,12 @@
+@use './colors';
+
+.nav {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.nav__item {
+  color: colors.$black;
+}

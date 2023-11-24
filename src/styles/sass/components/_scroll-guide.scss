@@ -1,0 +1,11 @@
+.scroll-guide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.scroll-guide__arrow {
+  content: '';
+  width: 30px;
+}
