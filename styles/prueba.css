@@ -353,7 +353,7 @@ textarea::placeholder {
 .project-preview2 {
 	height: 150px;
 	width: 300px;
-	background-image: url(../images/images/pokeapp-preview.png);
+	background-image: url(../images/images/cortez-amarillo-preview.png);
 	background-size: cover;
 	border: #0bafb5 solid 3px;
 	position: relative;
@@ -507,7 +507,7 @@ textarea::placeholder {
 }
 
 .project-img3 {
-	background-image: url(../images/images/dufte-preview.png);
+	background-image: url(../images/images/cortez-amarillo-preview.png);
 	background-size: cover;
 }
 
@@ -517,7 +517,7 @@ textarea::placeholder {
 }
 
 .project-img5 {
-	background-image: url(../images/images/dalio-preview.png);
+	background-image: url(../images/images/dufte-preview.png);
 	background-size: cover;
 }
 
