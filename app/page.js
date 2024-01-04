@@ -63,7 +63,7 @@ export default function Home() {
           </h2>
           <p>A few words about why I've chosen web development as a livelihood.</p>
         </Link>
-        <Link href="/about" className={styles.card}>
+        <Link href="/portfolio" className={styles.card}>
           <h2>
             Portfolio<span></span>
           </h2>
