@@ -1,16 +1,13 @@
 :root {
-
-  --callout-rgb: 238, 240, 241;
-  --callout-border-rgb: 172, 175, 176;
-  --card-rgb: 180, 185, 188;
-  --card-border-rgb: 131, 134, 135;
-  
   --max-width: 1100px;
   --social-border-radius: 50px;
   --background-gradient: 255, 255, 255;
   --bg-color: #f4f0eb;
   --orange-color: #ff593c;
   --black-color: #000000;
+  --card-rgb: 180, 185, 188;
+  --card-border-rgb: 131, 134, 135;
+  --card-border-radius: 12px
 }
 
 * {
