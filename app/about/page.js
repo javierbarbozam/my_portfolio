@@ -12,7 +12,7 @@ export default function Home() {
               <Link href="/">Home</Link>
             </li>
             <li>
-              <Link href="/about">About</Link>
+              <Link href="/portfolio">Portfolio</Link>
             </li>
           </ul>
         </nav>
