@@ -55,8 +55,8 @@ export default function Home() {
           <h2 className={shantell_Sans.className}>Glued to the chair</h2>
           <p>
             Like everyone else, I was seeking something enjoyable in my daily
-            pursuits. CETAV provided that 'something' I was looking for. Since
-            joining their Front End technical degree program, I've worked on
+            pursuits. CETAV provided that &apos;something&apos; I was looking for. Since
+            joining their Front End technical degree program, I&apos;ve worked on
             projects that have uncovered my passion for coding
           </p>
           <p>
@@ -65,8 +65,8 @@ export default function Home() {
             especially because each day brings new knowledge to handle tasks.
           </p>
           <p>
-            With a background in graphic design, I've turned my experience into
-            a valuable tool, understanding that coding isn't just about making
+            With a background in graphic design, I&apos;ve turned my experience into
+            a valuable tool, understanding that coding isn&apos;t just about making
             it work but also about creating clean, readable, and visually
             appealing solutions.
           </p>

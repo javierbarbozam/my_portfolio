@@ -61,13 +61,13 @@ export default function Home() {
           <h2>
             About<span></span>
           </h2>
-          <p>A few words about why I've chosen web development as a livelihood.</p>
+          <p>A few words about why I&apos;ve chosen web development as a livelihood.</p>
         </Link>
         <Link href="/portfolio" className={styles.card}>
           <h2>
             Portfolio<span></span>
           </h2>
-          <p>Take a look to some projects I've previously worked on.</p>
+          <p>Take a look to some projects I&apos;ve previously worked on.</p>
         </Link>
       </div>
     </main>
