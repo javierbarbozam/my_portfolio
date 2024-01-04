@@ -61,7 +61,10 @@ export default function Home() {
           <h2>
             About<span></span>
           </h2>
-          <p>A few words about why I&apos;ve chosen web development as a livelihood.</p>
+          <p>
+            A few words about why I&apos;ve chosen web development as a
+            livelihood.
+          </p>
         </Link>
         <Link href="/portfolio" className={styles.card}>
           <h2>
@@ -69,6 +72,16 @@ export default function Home() {
           </h2>
           <p>Take a look to some projects I&apos;ve previously worked on.</p>
         </Link>
+        <a
+          className={styles.card}
+          target="_blank"
+          href="https://drive.google.com/file/d/1iDvBtqxWWyinWOhQElWHXoWrgilCDF5O/view?usp=sharing"
+        >
+          <h2>
+            Resume<span></span>
+          </h2>
+          <p>Check out my academic and professional highlights.</p>
+        </a>
       </div>
     </main>
   );
