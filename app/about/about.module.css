@@ -1,0 +1,171 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+}
+
+.title {
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  font-size: 1.6rem;
+  max-width: var(--max-width);
+  width: 100%;
+  z-index: 2;
+}
+
+.title a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.title nav {
+  position: relative;
+  margin: 0;
+}
+
+.nav_list {
+  display: flex;
+  gap: 20px;
+  font-weight: 700;
+}
+
+.nav_list li:hover {
+  color: var(--orange-color);
+  cursor: pointer;
+  transition: color 200ms;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.social li a:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  border: 3px var(--orange-color) solid;
+  border-radius: var(--social-border-radius);
+  transition: border 300ms;
+}
+
+.social_linkedin {
+  content: "";
+  background: url("/linkedin_icon.svg");
+  background-size: cover;
+  position: relative;
+  width: 30px;
+  height: 30px;
+}
+
+.social_github {
+  content: "";
+  background: url("/github_icon.svg");
+  background-size: cover;
+  position: relative;
+  width: 30px;
+  height: 30px;
+}
+
+.social_email {
+  content: "";
+  background: url("/email_icon.svg");
+  background-size: cover;
+  position: relative;
+  width: 30px;
+  height: 30px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 4rem 0;
+}
+
+.center h2 {
+  color: var(--orange-color);
+  font-size: 3rem;
+}
+
+.center div {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: 1.5rem;
+  max-width: 50ch;
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  .main {
+    padding: 4rem;
+  }
+
+  .center {
+    padding: 2rem 0;
+  }
+
+  .title a {
+    padding: 1rem 0;
+  }
+
+  .title nav,
+  .title div {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+  }
+
+  .title nav {
+    align-items: center;
+    inset: 0 0 auto;
+    padding: 1rem 1rem 3rem;
+    background: linear-gradient(
+      to top,
+      transparent 0%,
+      rgb(var(--background-gradient)) 40%
+    );
+  }
+
+  .title div {
+    align-items: flex-end;
+    pointer-events: none;
+    inset: auto 0 0;
+    padding: 2rem;
+    height: 120px;
+    background: linear-gradient(
+      to bottom,
+      transparent 0%,
+      rgb(var(--background-gradient)) 40%
+    );
+    z-index: 1;
+  }
+
+  .center h2 {
+    font-size: 1.7rem;
+  }
+
+  .center div {
+    font-size: 1rem;
+    gap: 1rem;
+    padding-top: 2rem;
+  }
+  
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
