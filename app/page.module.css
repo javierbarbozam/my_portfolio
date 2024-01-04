@@ -142,7 +142,7 @@
   height: 100%;
   width: auto;
 }
-/* Enable hover only on non-touch devices */
+
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
     background: rgba(var(--card-rgb), 0.1);
@@ -155,7 +155,6 @@
   }
 }
 
-/* Mobile */
 @media (max-width: 700px) {
 
   .grid {
@@ -206,7 +205,6 @@
 
   .title div {
     align-items: flex-end;
-    pointer-events: none;
     inset: auto 0 0;
     padding: 2rem;
     height: 150px;
