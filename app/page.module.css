@@ -48,6 +48,7 @@
   transform: scale(1.1);
   border: 3px var(--orange-color) solid;
   border-radius: var(--social-border-radius);
+  transition: border 300ms;
 }
 
 .social_linkedin {
