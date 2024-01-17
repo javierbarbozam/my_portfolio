@@ -75,7 +75,7 @@ export default function Home() {
         <a
           className={styles.card}
           target="_blank"
-          href="https://drive.google.com/file/d/1iDvBtqxWWyinWOhQElWHXoWrgilCDF5O/view?usp=sharing"
+          href="https://drive.google.com/file/d/1B4ZItmfqgDpLCAcSoCOKKMCqpMoh4Nb3/view?usp=drive_link"
         >
           <h2>
             Resume<span></span>
